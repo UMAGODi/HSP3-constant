@@ -1,5 +1,7 @@
 # HSP3-constant
 
+**ダウンロード(リリース)は上部のreleasesか[こちら](https://github.com/UMAGODi/HSP3-constant/releases)**
+
 ### 概要・使用法 [constant.as]
 
 青い葉っぱさん(http://hp.vector.co.jp/authors/VA034288/) が公開している「WIN32API定数」をベースにHSP3でインクルードして使用できるように編集したものです。  
