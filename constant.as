@@ -2,9 +2,12 @@
 // ===============================================
 // constant.as by UMAGODi
 //
-// Ver. 1.1.0 [2020/02/10]
+// Ver. 1.1.1 [2020/03/05]
+// added NULLPTR
 // ===============================================
 
+#ifndef __CONSTANT__
+#define  global  __CONSTANT__
 
 #define  global  CHAR_BIT  $00000008
 #define  global  MB_LEN_MAX  $00000002
@@ -34,6 +37,7 @@
 #define  global  LC_MAX  $000000FF
 #define  global  LC_LAST  $000000FF
 #define  global  NULL  $00000000
+#define  global  NULLPTR $00000000
 #define  global  ADDRESS_TAG_BIT  $80000000
 #define  global  MAXUINT_PTR  $FFFFFFFF
 #define  global  MAXINT_PTR  $7FFFFFFF
@@ -24667,3 +24671,4 @@
 #define  global  HH_GPROPID_UI_LANGUAGE  $00000003
 #define  global  HH_GPROPID_CURRENT_SUBSET  $00000004
 #define  global  HH_GPROPID_CONTENT_LANGUAGE  $00000005
+#endif

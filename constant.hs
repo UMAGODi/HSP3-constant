@@ -6,7 +6,7 @@
 Windows
 
 %ver
-1.1.0
+1.1.1
 
 %date
 2020/02/10
@@ -386,6 +386,19 @@ Win32API ’è”
 
 %inst
 #define  global  NULL  0x00000000
+
+%group
+’è”
+
+%index
+NULLPTR
+Win32API ’è”
+
+%prm
+0x00000000
+
+%inst
+#define  global  NULLPTR  0x00000000
 
 %group
 ’è”
