@@ -7,7 +7,8 @@
 ### 概要・使用法 [constant.as]
 
 青い葉っぱさん(http://hp.vector.co.jp/authors/VA034288/) が公開している「WIN32API定数」をベースにHSP3でインクルードして使用できるように編集したものです。  
-commonフォルダーにコピーしてスクリプトの先頭に「#include "constant.as"」を記述することでHSP3でWin32API 定数を使用することができます。(constant.asをインクルードすればconstant_p1.as ～ constant_p7.as が自動的にインクルードされるので、それらを個別にインクルードする必要はありません。)
+commonフォルダーにコピーしてスクリプトの先頭に「#include "constant.as"」を記述することでHSP3でWin32API 定数を使用することができます。<br>
+(constant.asをインクルードすればconstant_p1.as ～ constant_p7.as が自動的にインクルードされるので、それらを個別にインクルードする必要はありません。)
 
 
 
@@ -20,13 +21,13 @@ HSP3は未使用定義をコンパイル時に自動的に除去する機能が�
 
 内容が多いためソートして7パートに分割しました。
 
-constant.as：以下7つをインクルード
-constant_p1.as：A～C
-constant_p2.as：D～E
-constant_p3.as：F～I
-constant_p4.as：J～M
-constant_p5.as：N～P
-constant_p6.as：Q～S
+constant.as：以下7つをインクルード<br>
+constant_p1.as：A～C<br>
+constant_p2.as：D～E<br>
+constant_p3.as：F～I<br>
+constant_p4.as：J～M<br>
+constant_p5.as：N～P<br>
+constant_p6.as：Q～S<br>
 constant_p7.as：T～_
 
 
@@ -46,12 +47,12 @@ constant.hs を `(HSPフォルダー)/doclib` または `(HSPフォルダー)/hs
 
 内容が多いためソートして7パートに分割しました。
 
-constant_p1.hs：A～C
-constant_p2.hs：D～E
-constant_p3.hs：F～I
-constant_p4.hs：J～M
-constant_p5.hs：N～P
-constant_p6.hs：Q～S
+constant_p1.hs：A～C<br>
+constant_p2.hs：D～E<br>
+constant_p3.hs：F～I<br>
+constant_p4.hs：J～M<br>
+constant_p5.hs：N～P<br>
+constant_p6.hs：Q～S<br>
 constant_p7.hs：T～_
 
 
