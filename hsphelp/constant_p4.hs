@@ -5233,6 +5233,20 @@ Part4 (J-M)
 
 
 %index
+LBS_COMBOBOX
+Win32API íËêî
+
+%prm
+$00008000
+
+%inst
+#define  global  LBS_COMBOBOX  $00008000
+
+%group
+Part4 (J-M)
+
+
+%index
 LBS_DISABLENOSCROLL
 Win32API íËêî
 
@@ -5359,6 +5373,48 @@ Part4 (J-M)
 
 
 %index
+LBS_NOTIFY
+Win32API íËêî
+
+%prm
+$00000001
+
+%inst
+#define  global  LBS_NOTIFY  $00000001
+
+%group
+Part4 (J-M)
+
+
+%index
+LBS_OWNERDRAWFIXED
+Win32API íËêî
+
+%prm
+$00000010
+
+%inst
+#define  global  LBS_OWNERDRAWFIXED  $00000010
+
+%group
+Part4 (J-M)
+
+
+%index
+LBS_OWNERDRAWVARIABLE
+Win32API íËêî
+
+%prm
+$00000020
+
+%inst
+#define  global  LBS_OWNERDRAWVARIABLE  $00000020
+
+%group
+Part4 (J-M)
+
+
+%index
 LBS_SORT
 Win32API íËêî
 
@@ -5377,10 +5433,10 @@ LBS_STANDARD
 Win32API íËêî
 
 %prm
-$00A00003
+(LBS_NOTIFY | LBS_SORT | WS_VSCROLL | WS_BORDER)
 
 %inst
-#define  global  LBS_STANDARD  $00A00003
+#define  global  LBS_STANDARD  (LBS_NOTIFY | LBS_SORT | WS_VSCROLL | WS_BORDER)
 
 %group
 Part4 (J-M)
@@ -5457,6 +5513,20 @@ Part4 (J-M)
 
 
 %index
+LB_DELETESTRING
+Win32API íËêî
+
+%prm
+$00000182
+
+%inst
+#define  global  LB_DELETESTRING  $00000182
+
+%group
+Part4 (J-M)
+
+
+%index
 LB_DIR
 Win32API íËêî
 
@@ -5493,6 +5563,20 @@ $0000018F
 
 %inst
 #define  global  LB_FINDSTRING  $0000018F
+
+%group
+Part4 (J-M)
+
+
+%index
+LB_FINDSTRINGEXACT
+Win32API íËêî
+
+%prm
+$000001A2
+
+%inst
+#define  global  LB_FINDSTRINGEXACT  $000001A2
 
 %group
 Part4 (J-M)
@@ -5611,6 +5695,20 @@ Part4 (J-M)
 
 
 %index
+LB_GETLISTBOXINFO
+Win32API íËêî
+
+%prm
+$000001B2
+
+%inst
+#define  global  LB_GETLISTBOXINFO  $000001B2
+
+%group
+Part4 (J-M)
+
+
+%index
 LB_GETLOCALE
 Win32API íËêî
 
@@ -5639,6 +5737,34 @@ Part4 (J-M)
 
 
 %index
+LB_GETSELCOUNT
+Win32API íËêî
+
+%prm
+$00000190
+
+%inst
+#define  global  LB_GETSELCOUNT  $00000190
+
+%group
+Part4 (J-M)
+
+
+%index
+LB_GETSELITEMS
+Win32API íËêî
+
+%prm
+$00000191
+
+%inst
+#define  global  LB_GETSELITEMS  $00000191
+
+%group
+Part4 (J-M)
+
+
+%index
 LB_GETTEXT
 Win32API íËêî
 
@@ -5647,6 +5773,20 @@ $00000189
 
 %inst
 #define  global  LB_GETTEXT  $00000189
+
+%group
+Part4 (J-M)
+
+
+%index
+LB_GETTEXTLEN
+Win32API íËêî
+
+%prm
+$0000018A
+
+%inst
+#define  global  LB_GETTEXTLEN  $0000018A
 
 %group
 Part4 (J-M)
@@ -5717,6 +5857,20 @@ $000001B0
 
 %inst
 #define  global  LB_MSGMAX  $000001B0
+
+%group
+Part4 (J-M)
+
+
+%index
+LB_MULTIPLEADDSTRING
+Win32API íËêî
+
+%prm
+$000001B1
+
+%inst
+#define  global  LB_MULTIPLEADDSTRING  $000001B1
 
 %group
 Part4 (J-M)
@@ -5958,6 +6112,8 @@ $00000197
 
 %group
 Part4 (J-M)
+
+
 
 
 %index
