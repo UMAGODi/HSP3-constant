@@ -75,6 +75,13 @@ commonフォルダー及びhsphelpフォルダーを自分が使ってるHSPの�
 
 ## 変更履歴
 
+### マイナーアップデート [2020/07/19]
+**マイナーアップデートではリリースは更新されません。マイナーアップデートはレポジトリ内のファイルの更新のみ行われます。**<br>
+**マイナーアップデートの内容は次のバージョンのリリース時にまとめて追加されます。**
+
+* LB_DELETESTRING, LB_FINDSTRINGEXACT, LB_GETLISTBOXINFO, LB_GETSELCOUNT, LB_GETSELITEMS, LB_GETTEXTLEN, LB_MULTIPLEADDSTRING, LBS_NOTIFY, LBS_OWNERDRAWFIXED, LBS_OWNERDRAWVARIABLE, LBS_COMBOBOX を追加。`constant.as` `constant.hs`
+* LBS_STANDARD の定義を更新。(展開後の値は変化していません) `constant.as` `constant.hs`
+
 ### v1.2.0 [2020/07/15]
 
 * #funcの引数と干渉するためNULLPTRを削除 (配慮が足りていませんでした。申し訳ありません。) `constant.as` `constant.hs`
